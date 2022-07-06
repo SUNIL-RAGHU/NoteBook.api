@@ -1,0 +1,17 @@
+/Users/sunil/Projects/Notebook/Notebook.Authentication/bin/Debug/net6.0/Notebook.Authentication.deps.json
+/Users/sunil/Projects/Notebook/Notebook.Authentication/bin/Debug/net6.0/Notebook.Authentication.dll
+/Users/sunil/Projects/Notebook/Notebook.Authentication/bin/Debug/net6.0/Notebook.Authentication.pdb
+/Users/sunil/Projects/Notebook/Notebook.Authentication/bin/Debug/net6.0/Notebook.DataService.dll
+/Users/sunil/Projects/Notebook/Notebook.Authentication/bin/Debug/net6.0/Notebook.Entities.dll
+/Users/sunil/Projects/Notebook/Notebook.Authentication/bin/Debug/net6.0/Notebook.DataService.pdb
+/Users/sunil/Projects/Notebook/Notebook.Authentication/bin/Debug/net6.0/Notebook.Entities.pdb
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.csproj.AssemblyReference.cache
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.AssemblyInfoInputs.cache
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.AssemblyInfo.cs
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.csproj.CoreCompileInputs.cache
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.csproj.CopyComplete
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.dll
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/refint/Notebook.Authentication.dll
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/Notebook.Authentication.pdb
+/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/Debug/net6.0/ref/Notebook.Authentication.dll

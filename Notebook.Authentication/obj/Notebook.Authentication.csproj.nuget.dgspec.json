@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sunil/Projects/Notebook/Notebook.Authentication/Notebook.Authentication.csproj": {}
+  },
+  "projects": {
+    "/Users/sunil/Projects/Notebook/Notebook.Authentication/Notebook.Authentication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sunil/Projects/Notebook/Notebook.Authentication/Notebook.Authentication.csproj",
+        "projectName": "Notebook.Authentication",
+        "projectPath": "/Users/sunil/Projects/Notebook/Notebook.Authentication/Notebook.Authentication.csproj",
+        "packagesPath": "/Users/sunil/.nuget/packages/",
+        "outputPath": "/Users/sunil/Projects/Notebook/Notebook.Authentication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sunil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/sunil/Projects/Notebook/Notebook.DataService/Notebook.DataService.csproj": {
+                "projectPath": "/Users/sunil/Projects/Notebook/Notebook.DataService/Notebook.DataService.csproj"
+              },
+              "/Users/sunil/Projects/Notebook/Notebook.Entities/Notebook.Entities.csproj": {
+                "projectPath": "/Users/sunil/Projects/Notebook/Notebook.Entities/Notebook.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sunil/Projects/Notebook/Notebook.DataService/Notebook.DataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sunil/Projects/Notebook/Notebook.DataService/Notebook.DataService.csproj",
+        "projectName": "Notebook.DataService",
+        "projectPath": "/Users/sunil/Projects/Notebook/Notebook.DataService/Notebook.DataService.csproj",
+        "packagesPath": "/Users/sunil/.nuget/packages/",
+        "outputPath": "/Users/sunil/Projects/Notebook/Notebook.DataService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sunil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/sunil/Projects/Notebook/Notebook.Entities/Notebook.Entities.csproj": {
+                "projectPath": "/Users/sunil/Projects/Notebook/Notebook.Entities/Notebook.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sunil/Projects/Notebook/Notebook.Entities/Notebook.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sunil/Projects/Notebook/Notebook.Entities/Notebook.Entities.csproj",
+        "projectName": "Notebook.Entities",
+        "projectPath": "/Users/sunil/Projects/Notebook/Notebook.Entities/Notebook.Entities.csproj",
+        "packagesPath": "/Users/sunil/.nuget/packages/",
+        "outputPath": "/Users/sunil/Projects/Notebook/Notebook.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sunil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

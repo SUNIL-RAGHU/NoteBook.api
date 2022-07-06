@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{DB5CC7FD-4B75-4706-9D58-07C48212874D}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sunil/Projects/Notebook/Notebook/Controllers/v1/UsersController.cs" relfile="Notebook/Controllers/v1/UsersController.cs" line="37" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Notebook.DataService/Data/UnitofWork.cs" Line="24" Column="1" />
+      <File FileName="Notebook/Controllers/v1/BaseController.cs" Line="19" Column="10" />
+      <File FileName="Notebook/Controllers/v1/UsersController.cs" Line="51" Column="75" />
+      <File FileName="Notebook/Program.cs" Line="25" Column="3" />
+      <File FileName="Notebook/appsettings.json" Line="3" Column="63" />
+      <File FileName="Notebook.Entities/Dtos/Incoming/UserDto.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Notebook" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Notebook PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{DB5CC7FD-4B75-4706-9D58-07C48212874D}" ItemName="Notebook" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>
