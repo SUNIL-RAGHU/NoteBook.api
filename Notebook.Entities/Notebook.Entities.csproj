@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DbSet\" />
+    <None Remove="Dtos\" />
+    <None Remove="Dtos\Incoming\" />
+    <None Remove="Dtos\Outgoing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DbSet\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Dtos\Incoming\" />
+    <Folder Include="Dtos\Outgoing\" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

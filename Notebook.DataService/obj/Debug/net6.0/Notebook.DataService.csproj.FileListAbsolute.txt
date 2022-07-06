@@ -1,0 +1,17 @@
+/Users/sunil/Projects/Notebook/Notebook.DataService/bin/Debug/net6.0/Notebook.DataService.deps.json
+/Users/sunil/Projects/Notebook/Notebook.DataService/bin/Debug/net6.0/Notebook.DataService.runtimeconfig.json
+/Users/sunil/Projects/Notebook/Notebook.DataService/bin/Debug/net6.0/Notebook.DataService.dll
+/Users/sunil/Projects/Notebook/Notebook.DataService/bin/Debug/net6.0/Notebook.DataService.pdb
+/Users/sunil/Projects/Notebook/Notebook.DataService/bin/Debug/net6.0/Notebook.Entities.dll
+/Users/sunil/Projects/Notebook/Notebook.DataService/bin/Debug/net6.0/Notebook.Entities.pdb
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.csproj.AssemblyReference.cache
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.AssemblyInfoInputs.cache
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.AssemblyInfo.cs
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.csproj.CoreCompileInputs.cache
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.csproj.CopyComplete
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.dll
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/refint/Notebook.DataService.dll
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.pdb
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/Notebook.DataService.genruntimeconfig.cache
+/Users/sunil/Projects/Notebook/Notebook.DataService/obj/Debug/net6.0/ref/Notebook.DataService.dll

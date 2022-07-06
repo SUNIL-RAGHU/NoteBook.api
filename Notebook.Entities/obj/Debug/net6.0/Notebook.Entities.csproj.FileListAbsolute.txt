@@ -1,0 +1,12 @@
+/Users/sunil/Projects/Notebook/Notebook.Entities/bin/Debug/net6.0/Notebook.Entities.deps.json
+/Users/sunil/Projects/Notebook/Notebook.Entities/bin/Debug/net6.0/Notebook.Entities.dll
+/Users/sunil/Projects/Notebook/Notebook.Entities/bin/Debug/net6.0/Notebook.Entities.pdb
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/Notebook.Entities.csproj.AssemblyReference.cache
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/Notebook.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/Notebook.Entities.AssemblyInfoInputs.cache
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/Notebook.Entities.AssemblyInfo.cs
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/Notebook.Entities.csproj.CoreCompileInputs.cache
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/Notebook.Entities.dll
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/refint/Notebook.Entities.dll
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/Notebook.Entities.pdb
+/Users/sunil/Projects/Notebook/Notebook.Entities/obj/Debug/net6.0/ref/Notebook.Entities.dll

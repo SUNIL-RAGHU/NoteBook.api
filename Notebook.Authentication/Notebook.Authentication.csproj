@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Configuration\" />
+    <None Remove="Models\" />
+    <None Remove="Models\DTOS\" />
+    <None Remove="Models\DTOS\Incoming\" />
+    <None Remove="Models\DTOS\Outgoing\" />
+    <None Remove="Models\DTOS\Generic\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\DTOS\" />
+    <Folder Include="Models\DTOS\Incoming\" />
+    <Folder Include="Models\DTOS\Outgoing\" />
+    <Folder Include="Models\DTOS\Generic\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Notebook.DataService\Notebook.DataService.csproj" />
+    <ProjectReference Include="..\Notebook.Entities\Notebook.Entities.csproj" />
+  </ItemGroup>
+</Project>
