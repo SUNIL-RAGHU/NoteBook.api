@@ -28,6 +28,21 @@ builder.Services.AddApiVersioning(opt =>
     opt.AssumeDefaultVersionWhenUnspecified = true;
     opt.DefaultApiVersion = ApiVersion.Default;
 });
+
+//getting the secret the from the config
+var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtConfig:Secret"]);
+
+var tokenvalidationparameters = new TokenValidationParameters
+{
+    ValidateIssuerSigningKey = true,
+    IssuerSigningKey = new SymmetricSecurityKey(key),
+    ValidateIssuer = false,
+    ValidateAudience = false,
+    RequireExpirationTime = false,
+    ValidateLifetime = true
+};
+//injecting into our Di containers
+builder.Services.AddSingleton(tokenvalidationparameters);
 builder.Services.AddScoped<IUnitofWork, UnitofWork>();
 builder.Services.AddControllers();
 
@@ -38,25 +53,17 @@ builder.Services.AddAuthentication(options =>
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-    .AddJwtBearer(jwt =>
-{
+    .AddJwtBearer(jwt =>{
     //getting the secret the from the config
     var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtConfig:Secret"]);
 
     jwt.SaveToken = true;
 
-    jwt.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false,
-        ValidateAudience = false,
-        RequireExpirationTime = false,
-        ValidateLifetime = true
-
-
-    };
+    jwt.TokenValidationParameters = tokenvalidationparameters;
+   
 });
+
+
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDbContext>();
 
@@ -64,6 +71,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
 
 
 var app = builder.Build();

@@ -11,6 +11,7 @@
     <None Remove="Dtos\" />
     <None Remove="Dtos\Incoming\" />
     <None Remove="Dtos\Outgoing\" />
+    <None Remove="Microsoft.AspNetCore.Identity.UI" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DbSet\" />
@@ -19,5 +20,8 @@
     <Folder Include="Dtos\Outgoing\" />
   </ItemGroup>
   <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.6" />
   </ItemGroup>
 </Project>

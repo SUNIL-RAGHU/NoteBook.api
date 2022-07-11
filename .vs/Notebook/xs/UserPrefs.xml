@@ -1,32 +1,6 @@
 ﻿<Properties StartupConfiguration="{DB5CC7FD-4B75-4706-9D58-07C48212874D}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/sunil/Projects/Notebook/Notebook/Controllers/v1/UsersController.cs" relfile="Notebook/Controllers/v1/UsersController.cs" line="37" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="Notebook.DataService/Data/UnitofWork.cs" Line="24" Column="1" />
-      <File FileName="Notebook/Controllers/v1/BaseController.cs" Line="19" Column="10" />
-      <File FileName="Notebook/Controllers/v1/UsersController.cs" Line="51" Column="75" />
-      <File FileName="Notebook/Program.cs" Line="25" Column="3" />
-      <File FileName="Notebook/appsettings.json" Line="3" Column="63" />
-      <File FileName="Notebook.Entities/Dtos/Incoming/UserDto.cs" Line="17" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Notebook" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Notebook PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -34,4 +8,66 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Notebook/Controllers/v1/AccountsController.cs">
+    <Files>
+      <File FileName="Notebook.DataService/Data/UnitofWork.cs" Line="21" Column="61" />
+      <File FileName="Notebook/Controllers/v1/BaseController.cs" Line="19" Column="10" />
+      <File FileName="Notebook/Controllers/v1/UsersController.cs" Line="14" Column="3" />
+      <File FileName="Notebook/Program.cs" Line="56" Column="25" />
+      <File FileName="Notebook/appsettings.json" Line="15" Column="34" />
+      <File FileName="Notebook.Entities/Dtos/Incoming/UserDto.cs" Line="17" Column="1" />
+      <File FileName="Notebook/Controllers/v1/AccountsController.cs" Line="228" Column="28" />
+      <File FileName="Notebook.Authentication/Models/DTOS/Incoming/UserLoginRequestDto.cs" Line="11" Column="22" />
+      <File FileName="Notebook.Authentication/Models/DTOS/Outgoing/UserRegistrationResponse.cs" Line="4" Column="46" />
+      <File FileName="Notebook.Authentication/Models/DTOS/Outgoing/UserLoginResponse.cs" Line="5" Column="3" />
+      <File FileName="Notebook.Authentication/Configuration/JwtConfig.cs" Line="8" Column="52" />
+      <File FileName="Notebook.Authentication/Models/DTOS/Outgoing/AuthResult.cs" Line="9" Column="49" />
+      <File FileName="Notebook.Entities/DbSet/RefreshToken.cs" Line="24" Column="32" />
+      <File FileName="Notebook.Entities/DbSet/BaseEntity.cs" Line="1" Column="1" />
+      <File FileName="Notebook.Authentication/Models/DTOS/Incoming/TokenRequest.cs" Line="7" Column="3" />
+      <File FileName="Notebook.Entities/DbSet/User.cs" Line="19" Column="1" />
+      <File FileName="Notebook.DataService/Data/AppDbContext.cs" Line="11" Column="42" />
+      <File FileName="Notebook.DataService/Migrations/20220708091136_Added RefreshTokens.Designer.cs" Line="11" Column="1" />
+      <File FileName="Notebook.DataService/IRepository/IRefreshTokenRepository.cs" Line="6" Column="75" />
+      <File FileName="Notebook.DataService/IConfiguration/IUnitofWork.cs" Line="10" Column="46" />
+      <File FileName="Notebook.DataService/IRepository/IUserRepository.cs" Line="1" Column="1" />
+      <File FileName="Notebook.DataService/Repository/UserRepository (copy).cs" Line="18" Column="10" />
+      <File FileName="Notebook.Authentication/Models/DTOS/Generic/TokensData.cs" Line="6" Column="24" />
+      <File FileName="Notebook.Authentication/Models/DTOS/Incoming/UserRegisterationRequestDto.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Notebook" expanded="True">
+            <Node name="Notebook" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="v1" expanded="True">
+                  <Node name="AccountsController.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Notebook.Authentication" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="DTOS" expanded="True">
+                  <Node name="Generic" expanded="True" />
+                  <Node name="Incoming" expanded="True" />
+                  <Node name="Outgoing" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Notebook.DataService" expanded="True">
+              <Node name="Repository" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Notebook PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>

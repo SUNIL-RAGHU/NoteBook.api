@@ -1103,6 +1103,9 @@
       "Notebook.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.6"
+        },
         "compile": {
           "bin/placeholder/Notebook.Entities.dll": {}
         },

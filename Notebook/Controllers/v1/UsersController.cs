@@ -1,4 +1,6 @@
 ﻿using System;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Notebook.DataService.Data;
 using Notebook.DataService.IConfiguration;
@@ -7,6 +9,7 @@ using Notebook.Entities.Dtos.Incoming;
 
 namespace Notebook.Controllers.v1
 {
+    [Authorize(AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme)]
     public class UsersController : BaseController
 	{
 
@@ -20,6 +23,7 @@ namespace Notebook.Controllers.v1
 
 
         [HttpGet]
+        [HttpHead]
         
         public async Task<IActionResult> GetUsers()
         {

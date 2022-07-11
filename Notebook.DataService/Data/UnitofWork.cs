@@ -14,13 +14,14 @@ namespace Notebook.DataService.Data
 
         public IUserRepository Users { get; private set; }
 
-       
+        public IRefreshTokenRepository RefreshToken { get; set; }
         public UnitofWork(AppDbContext context,ILoggerFactory loggerFactory)
         {
             _Context = context;
             _logger = loggerFactory.CreateLogger("db_logs");
 
             Users = new UsersRepository(context, _logger);
+            RefreshToken = new RefreshTokenRepository(context, _logger);
 
         }
 

@@ -7,6 +7,8 @@ namespace Notebook.DataService.IConfiguration
 	{
 		IUserRepository Users { get; }
 
+		IRefreshTokenRepository RefreshToken { get; }
+
         Task CompleteAsync();
 	}
 }

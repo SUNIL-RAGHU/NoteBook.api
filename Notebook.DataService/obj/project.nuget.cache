@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z/p6M+9lKGKghQt0o5D1E5/av+gbjADLYe3+xYeZwCaqklZ6nOU+to8R/P9Hm8fQieaWpNuRZBI6wjGouPDaGA==",
+  "dgSpecHash": "Cv0S1QqTS3r3Gj8RKqpz1s536BtpJmRNsdc9j7npqBR6FRi82RU+kYq2TZSjyoVdvpAYn8I0J3fiANVg9RQcVg==",
   "success": true,
   "projectFilePath": "/Users/sunil/Projects/Notebook/Notebook.DataService/Notebook.DataService.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/sunil/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.6/microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.6/microsoft.aspnetcore.cryptography.keyderivation.6.0.6.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.6/microsoft.aspnetcore.identity.entityframeworkcore.6.0.6.nupkg.sha512",
+    "/Users/sunil/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.6/microsoft.aspnetcore.identity.ui.6.0.6.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -27,6 +28,8 @@
     "/Users/sunil/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.extensions.dependencymodel/6.0.0/microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "/Users/sunil/.nuget/packages/microsoft.extensions.fileproviders.abstractions/6.0.0/microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "/Users/sunil/.nuget/packages/microsoft.extensions.fileproviders.embedded/6.0.6/microsoft.extensions.fileproviders.embedded.6.0.6.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.extensions.identity.core/6.0.6/microsoft.extensions.identity.core.6.0.6.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.extensions.identity.stores/6.0.6/microsoft.extensions.identity.stores.6.0.6.nupkg.sha512",
     "/Users/sunil/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
